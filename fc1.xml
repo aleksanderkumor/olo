@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2021-06-18T09:08:49.6036384Z</Created>
+    <Created>2021-06-18T09:07:39.5575822Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -86,40 +86,7 @@
       </MultilingualText>
       <SW.Blocks.CompileUnit ID="3" CompositionName="CompileUnits">
         <AttributeList>
-          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
-  <Parts>
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="Tag_1" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="22">
-      <Symbol>
-        <Component Name="Tag_2" />
-      </Symbol>
-    </Access>
-    <Part Name="Contact" UId="23" />
-    <Part Name="Coil" UId="24" />
-  </Parts>
-  <Wires>
-    <Wire UId="25">
-      <Powerrail />
-      <NameCon UId="23" Name="in" />
-    </Wire>
-    <Wire UId="26">
-      <IdentCon UId="21" />
-      <NameCon UId="23" Name="operand" />
-    </Wire>
-    <Wire UId="27">
-      <NameCon UId="23" Name="out" />
-      <NameCon UId="24" Name="in" />
-    </Wire>
-    <Wire UId="28">
-      <IdentCon UId="22" />
-      <NameCon UId="24" Name="operand" />
-    </Wire>
-  </Wires>
-</FlgNet></NetworkSource>
+          <NetworkSource />
           <ProgrammingLanguage>LAD</ProgrammingLanguage>
         </AttributeList>
         <ObjectList>
@@ -145,37 +112,9 @@
           </MultilingualText>
         </ObjectList>
       </SW.Blocks.CompileUnit>
-      <SW.Blocks.CompileUnit ID="8" CompositionName="CompileUnits">
-        <AttributeList>
-          <NetworkSource />
-          <ProgrammingLanguage>LAD</ProgrammingLanguage>
-        </AttributeList>
+      <MultilingualText ID="8" CompositionName="Title">
         <ObjectList>
-          <MultilingualText ID="9" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="A" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-          <MultilingualText ID="B" CompositionName="Title">
-            <ObjectList>
-              <MultilingualTextItem ID="C" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Blocks.CompileUnit>
-      <MultilingualText ID="D" CompositionName="Title">
-        <ObjectList>
-          <MultilingualTextItem ID="E" CompositionName="Items">
+          <MultilingualTextItem ID="9" CompositionName="Items">
             <AttributeList>
               <Culture>en-US</Culture>
               <Text />
