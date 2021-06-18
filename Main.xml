@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2021-06-18T07:55:10.3800181Z</Created>
+    <Created>2021-06-18T07:57:49.5681823Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -93,14 +93,28 @@
         <AttributeList>
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
   <Parts>
-    <Call UId="21">
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Tag_6" />
+      </Symbol>
+    </Access>
+    <Call UId="22">
       <CallInfo Name="Block_1" BlockType="FC" />
     </Call>
+    <Part Name="Coil" UId="23" />
   </Parts>
   <Wires>
-    <Wire UId="22">
+    <Wire UId="24">
       <Powerrail />
-      <NameCon UId="21" Name="en" />
+      <NameCon UId="22" Name="en" />
+    </Wire>
+    <Wire UId="25">
+      <NameCon UId="22" Name="eno" />
+      <NameCon UId="23" Name="in" />
+    </Wire>
+    <Wire UId="26">
+      <IdentCon UId="21" />
+      <NameCon UId="23" Name="operand" />
     </Wire>
   </Wires>
 </FlgNet></NetworkSource>
